@@ -11,5 +11,15 @@ Tested up to: 6.1.1
 Requires PHP: 7.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
 */
+*,
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+header.header-area {
+  background-color: #262322;
+  height: 100vh;
+}

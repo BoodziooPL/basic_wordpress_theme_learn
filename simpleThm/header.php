@@ -13,10 +13,10 @@
 
 <header class='header-area'>
  <div><h1><a href="<?php bloginfo('url')?>"> <?php bloginfo('name')?></a></h1></div>
- <div>
+ <nav>
   <?php wp_nav_menu(); ?>
  
- </div>
+</nav>
 
 </header>
 <main>

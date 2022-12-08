@@ -15,6 +15,7 @@
  <div><h1><a href="<?php bloginfo('url')?>"> <?php bloginfo('name')?></a></h1></div>
  <div>
   <?php wp_nav_menu(); ?>
+ 
  </div>
 
 </header>

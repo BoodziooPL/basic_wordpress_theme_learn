@@ -20,6 +20,16 @@ body {
   box-sizing: border-box ;
   background-color: rgb(54, 54, 54);
 }
+
+* a {
+  text-decoration: none;
+  color: black;
+}
+
+* li {
+  list-style: none;
+}
+
 header.header-area {
   width: 100%;
   display: flex;
@@ -29,13 +39,4 @@ header.header-area {
 nav .menu{
   
   font-size: large;
-}
-
-* a {
-  text-decoration: none;
-  color: black;
-}
-
-* li {
-  list-style: none;
 }

@@ -1,4 +1,5 @@
-<?php function simpleThm_enqueue_style() {
-    wp_enqueue_style( 'simpleThm-style', get_stylesheet_uri() ); 
-}
-add_action( 'wp_enqueue_scripts', 'simpleThm_enqueue_style' );?>
+<?php 
+
+function my_function_admin_bar(){ return false; }
+add_filter( 'show_admin_bar' , 'my_function_admin_bar');
+?>

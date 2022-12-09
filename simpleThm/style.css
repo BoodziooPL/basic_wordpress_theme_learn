@@ -18,7 +18,7 @@ body {
   margin: 0 ;
   padding: 0 ;
   box-sizing: border-box ;
-  background-color: rgb(54, 54, 54);
+  background-color: rgb(37, 37, 37);
 }
 
 * a {
@@ -35,8 +35,18 @@ header.header-area {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: sticky;
+  top: 0;
 }
 nav .menu{
-  
   font-size: large;
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 100%;
+  text-align: center;
+  
 }

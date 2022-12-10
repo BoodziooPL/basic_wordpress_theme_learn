@@ -18,7 +18,11 @@
 <header class='header-area'>
  <div><h1><a href="<?php bloginfo('url')?>"> <?php bloginfo('name')?></a></h1></div>
  <nav>
-  <?php wp_nav_menu(); ?>
+  <?php
+  if(has_nav_menu( 'header-menu' )){
+    wp_nav_menu(array('theme_location' => 'header-menu'));
+  }
+  ?>
  
 </nav>
 

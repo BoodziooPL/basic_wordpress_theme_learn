@@ -18,7 +18,7 @@ body {
   margin: 0 ;
   padding: 0 ;
   box-sizing: border-box ;
-  background-color: rgb(37, 37, 37);
+  background-color: #323534;
 }
 
 * a {
@@ -49,4 +49,9 @@ nav .menu{
   width: 100%;
   text-align: center;
   
+}
+
+ul#menu-menu-1{
+  display: flex !important;
+  background-color: red;
 }

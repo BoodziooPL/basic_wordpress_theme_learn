@@ -38,6 +38,9 @@
 ?>
 
 </section>
+<?php 
+// dodanie paginacji dla postow, w zaleznosci od mozliwosci wyswietlania paginacja wyswietli numeryczne menu do przejsc next/prev
+?>
 <div class="pagination">
     <?php the_posts_pagination(); ?>
 </div>
